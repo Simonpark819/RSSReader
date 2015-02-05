@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavoriteViewController">
+            <connections>
+                <outlet property="appArtistLabel" destination="fcB-63-arX" id="oPB-wP-tWB"/>
+                <outlet property="appCostLabel" destination="KWw-eY-z56" id="Kct-e9-aB7"/>
+                <outlet property="appImageView" destination="ENX-PU-yN5" id="VVo-id-sVK"/>
+                <outlet property="appReleaseLabel" destination="D0A-Uh-3DL" id="LK3-1j-H5F"/>
+                <outlet property="appTextView" destination="W9Y-br-m7W" id="zjx-nL-MGV"/>
+                <outlet property="view" destination="2e2-Uo-qXJ" id="hqD-it-Oo2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2e2-Uo-qXJ">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ENX-PU-yN5">
+                    <rect key="frame" x="20" y="74" width="74" height="73"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="73" id="84Y-Qe-mjR"/>
+                        <constraint firstAttribute="width" constant="74" id="DpJ-Bj-35b"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Artist Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcB-63-arX">
+                    <rect key="frame" x="129" y="71" width="171" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Cost Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWw-eY-z56">
+                    <rect key="frame" x="129" y="129" width="162" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9Y-br-m7W">
+                    <rect key="frame" x="19" y="212" width="282" height="336"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Release" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0A-Uh-3DL">
+                    <rect key="frame" x="129" y="100" width="162" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ENX-PU-yN5" firstAttribute="centerY" secondItem="D0A-Uh-3DL" secondAttribute="centerY" id="0cs-sl-Jpl"/>
+                <constraint firstItem="W9Y-br-m7W" firstAttribute="top" secondItem="ENX-PU-yN5" secondAttribute="bottom" constant="65" id="0ix-WI-kV0"/>
+                <constraint firstAttribute="centerX" secondItem="W9Y-br-m7W" secondAttribute="centerX" id="1yd-40-egx"/>
+                <constraint firstAttribute="trailing" secondItem="W9Y-br-m7W" secondAttribute="trailing" constant="19" id="ABp-hB-hwJ"/>
+                <constraint firstItem="KWw-eY-z56" firstAttribute="top" secondItem="D0A-Uh-3DL" secondAttribute="bottom" constant="8" id="DhI-NU-vqQ"/>
+                <constraint firstItem="fcB-63-arX" firstAttribute="centerX" secondItem="D0A-Uh-3DL" secondAttribute="centerX" id="EMf-PN-cLv"/>
+                <constraint firstItem="D0A-Uh-3DL" firstAttribute="leading" secondItem="ENX-PU-yN5" secondAttribute="trailing" constant="35" id="GHk-Rr-BY3"/>
+                <constraint firstItem="KWw-eY-z56" firstAttribute="leading" secondItem="ENX-PU-yN5" secondAttribute="trailing" constant="35" id="Q6M-Ex-uQ4"/>
+                <constraint firstItem="ENX-PU-yN5" firstAttribute="leading" secondItem="2e2-Uo-qXJ" secondAttribute="leading" constant="20" id="VnJ-rE-Ktg"/>
+                <constraint firstItem="D0A-Uh-3DL" firstAttribute="top" secondItem="fcB-63-arX" secondAttribute="bottom" constant="8" id="gHh-zV-QUm"/>
+                <constraint firstItem="D0A-Uh-3DL" firstAttribute="centerX" secondItem="KWw-eY-z56" secondAttribute="centerX" id="lfi-3Q-3PG"/>
+                <constraint firstItem="fcB-63-arX" firstAttribute="leading" secondItem="ENX-PU-yN5" secondAttribute="trailing" constant="35" id="mHF-Cy-07k"/>
+                <constraint firstItem="W9Y-br-m7W" firstAttribute="leading" secondItem="2e2-Uo-qXJ" secondAttribute="leading" constant="19" id="mzj-7K-Huz"/>
+                <constraint firstAttribute="bottom" secondItem="W9Y-br-m7W" secondAttribute="bottom" constant="20" id="xmh-JP-K2S"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

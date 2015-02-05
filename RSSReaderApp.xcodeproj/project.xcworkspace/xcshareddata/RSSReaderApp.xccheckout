@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B6650FA8-72FC-41AF-9728-3A96498BFEA6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RSSReaderApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BAB4133FD734857BA139EEBA57105631B04C7046</key>
+		<string>https://github.com/Simonpark819/hackerati-project-demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RSSReaderApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BAB4133FD734857BA139EEBA57105631B04C7046</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Simonpark819/hackerati-project-demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BAB4133FD734857BA139EEBA57105631B04C7046</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BAB4133FD734857BA139EEBA57105631B04C7046</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RSSReaderApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
